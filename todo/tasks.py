@@ -10,5 +10,4 @@ def send_notification():
 
     if unsent_reminders:
         print "Notification sent"
-
-    unsent_reminders.update(notification_sent=True)
+        unsent_reminders.update(notification_sent=True)
